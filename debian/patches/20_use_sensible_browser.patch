@@ -1,0 +1,15 @@
+Author: Damián Viano <des@debian.org>
+Description: change default browser to sensible-browser to be more debian integrated
+Index: geany/src/keyfile.c
+===================================================================
+--- geany.orig/src/keyfile.c	2021-10-18 11:15:58.353477522 +0800
++++ geany/src/keyfile.c	2021-10-18 11:16:05.000000000 +0800
+@@ -87,7 +87,7 @@
+ #define GEANY_DEFAULT_FONT_MSG_WINDOW	"Menlo Medium 12"
+ #define GEANY_DEFAULT_FONT_EDITOR		"Menlo Medium 12"
+ #else
+-#define GEANY_DEFAULT_TOOLS_BROWSER		"firefox"
++#define GEANY_DEFAULT_TOOLS_BROWSER		"sensible-browser"
+ #define GEANY_DEFAULT_FONT_SYMBOL_LIST	"Sans 9"
+ #define GEANY_DEFAULT_FONT_MSG_WINDOW	"Monospace 9"
+ #define GEANY_DEFAULT_FONT_EDITOR		"Monospace 10"
